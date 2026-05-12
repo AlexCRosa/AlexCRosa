@@ -8,8 +8,8 @@ Career changer from finance, now building across the full stack — from microse
 
 | Project | What It Does | Stack |
 |---------|-------------|-------|
-| [Expense Tracker](https://github.com/AlexCRosa/expense-tracker) | Three-microservice Python app on a Raspberry Pi 5 — hybrid rule-based + Ollama LLM pipeline categorizes bank transactions across 14 categories. Iterated on prompt design and evaluated Qwen 2.5, Phi-3 Mini, Llama 3.2 for accuracy and inference speed. | Python, Django, FastAPI, PostgreSQL, Docker, Ollama |
-| [Commission Calculator](https://github.com/AlexCRosa/commission-calculator) | Capstone project built and shipped to production with a team — full lifecycle from requirements through deployment. | Django, PostgreSQL |
+| [Expense Tracker](https://github.com/AlexCRosa/expense-tracker) | Three-microservice Python app on a Raspberry Pi 5 — hybrid rule-based + Ollama LLM pipeline categorizes bank transactions across 14 categories. Iterated on prompt design and evaluated Qwen 2.5, Phi-3 Mini, Llama 3.2 for accuracy and inference speed. | Python, Django, FastAPI, SQLite, PostgreSQL, Docker, Ollama |
+| [Commission Calculator](https://github.com/AlexCRosa/commission-calculator) | Capstone project built and shipped to production with a team — full lifecycle from requirements through deployment. | Django, MariaDB |
 | [Task Manager](https://github.com/AlexCRosa/task-manager) | QA on a Flask application: unit, API, end-to-end, and acceptance tests. Selenium automation for auth and CRUD flows. GitHub Actions CI runs the full suite on pull requests to prevent regressions. | Flask, SQLite, PyTest, Selenium, Postman, Robot Framework, GitHub Actions |
 | User Guide Chat | RAG chatbot that helps users fill ServiceNow tickets correctly by retrieving grounded answers from internal documentation. Vector search + LLM response generation. *(private)* | Azure AI Foundry, Azure AI Search, Azure OpenAI |
 | Personal Homelab | Containerized services on Fedora and Raspberry Pi OS using Docker and Docker Compose, with Ansible playbooks for config management and Bash automation for monitoring, backups, and maintenance. *(private)* | Linux, Docker, Ansible, Bash, Raspberry Pi |
@@ -49,7 +49,7 @@ Career changer from finance, now building across the full stack — from microse
 ## Experience Highlights
 
 **Cloud Services Intern — NC Department of Information Technology** *(Sep 2025 – Mar 2026)*
-Managed cloud tenants across AWS, Azure, and GCP through CloudBolt, handling production modifications independently after onboarding. Performed manual testing of infrastructure automation workflows, validated GitHub Actions pipeline execution, and supported a multi-cloud IaC project spanning ServiceNow, GitHub Actions, and Terraform.
+Worked on a infrastructure-as-code automation project spanning ServiceNow, GitHub Actions, and Terraform, reviewing documentation, attending design discussions, and assisting the architecture team with research. I performed manual testing of infrastructure automation workflows in dev and test environments, validating GitHub Actions pipeline runs and logging issues in ServiceNow tickets. I also managed cloud tenants in CloudBolt across AWS, Azure, and GCP after onboarding, and automated a monthly billing workflow that delivered reports to the financial team.
 
 **Peer Tutor — Wake Technical Community College** *(Jan 2025 – Sep 2025)*
 One-on-one tutoring in Python, Java, and software development fundamentals. Coached debugging, problem-solving, and independent learning strategies.
